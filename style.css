@@ -231,6 +231,42 @@ box-shadow:0 0 20px #A855F7;
 
 }
 
+.galeria{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.galeria img{
+
+width:100%;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:.4s;
+
+box-shadow:0 0 20px rgba(168,85,247,.3);
+
+}
+
+.galeria img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 35px rgba(168,85,247,.8);
+
+}
+
 /* ========================= */
 /*       SECCIONES           */
 /* ========================= */
