@@ -532,5 +532,62 @@ font-size:18px;
 font-size:32px;
 
 }
+.comentarios{
+
+    max-width:700px;
+
+    margin:80px auto;
+
+    text-align:center;
+
+}
+
+.comentarios h2{
+
+    color:#C084FC;
+
+    margin-bottom:15px;
+
+}
+
+.comentarios p{
+
+    margin-bottom:25px;
+
+}
+
+.comentarios textarea{
+
+    width:100%;
+
+    height:180px;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:18px;
+
+    resize:none;
+
+    background:#1B1128;
+
+    color:white;
+
+    font-size:17px;
+
+    outline:none;
+
+}
+
+.comentarios textarea:focus{
+
+    box-shadow:0 0 20px rgba(168,85,247,.6);
+
+}
+
+.comentarios button{
+
+    margin-top:20px;
 
 }
