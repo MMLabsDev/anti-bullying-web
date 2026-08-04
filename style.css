@@ -591,3 +591,40 @@ font-size:32px;
     margin-top:20px;
 
 }
+.gracias{
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:30px;
+
+}
+
+.gracias h1{
+
+font-size:55px;
+
+margin-bottom:25px;
+
+color:#C084FC;
+
+}
+
+.gracias p{
+
+font-size:22px;
+
+max-width:700px;
+
+line-height:1.8;
+
+}
