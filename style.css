@@ -182,6 +182,44 @@ transition:.3s;
 
 }
 
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    font-size:28px;
+    font-weight:800;
+
+}
+
+.logo img{
+
+    width:55px;
+    height:55px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:3px solid #A855F7;
+
+}
+
+.logo img{
+
+    transition:.4s;
+
+}
+
+.logo img:hover{
+
+    transform:scale(1.12) rotate(-5deg);
+
+    box-shadow:0 0 20px #A855F7;
+
+}
+
 .instagram:hover{
 
 background:#C084FC;
