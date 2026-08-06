@@ -701,3 +701,126 @@ max-width:700px;
 line-height:1.8;
 
 }
+/* ========================= */
+/*       MURAL DE VOCES      */
+/* ========================= */
+
+.mural{
+
+    min-height:100vh;
+
+    padding:80px 10%;
+
+    text-align:center;
+
+}
+
+
+.mural h1{
+
+    font-size:50px;
+
+    color:#C084FC;
+
+    margin-bottom:20px;
+
+}
+
+
+.mural > p{
+
+    font-size:20px;
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    opacity:.9;
+
+}
+
+
+/* CONTENEDOR DE TARJETAS */
+
+.comentarios-publicos{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+    margin-top:50px;
+
+}
+
+
+/* TARJETAS DE COMENTARIOS */
+
+.comentario{
+
+    background:rgba(40,25,60,.75);
+
+    padding:30px;
+
+    border-radius:25px;
+
+    text-align:left;
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(192,132,252,.2);
+
+    transition:.4s;
+
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+
+}
+
+
+.comentario:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 30px rgba(168,85,247,.5);
+
+}
+
+
+/* TEXTO DEL COMENTARIO */
+
+.comentario p{
+
+    font-size:18px;
+
+    line-height:1.7;
+
+}
+
+
+/* AUTOR ANÓNIMO */
+
+.comentario span{
+
+    display:block;
+
+    margin-top:20px;
+
+    color:#C084FC;
+
+    font-weight:bold;
+
+}
+
+
+/* BOTÓN VOLVER */
+
+.volver{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+}
