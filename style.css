@@ -162,6 +162,41 @@ cursor:pointer;
 transition:.3s;
 
 }
+
+.boton{
+
+    display:inline-block;
+
+    margin-top:35px;
+
+    background:#8B5CF6;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 38px;
+
+    border-radius:40px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.boton:hover{
+
+    background:#A855F7;
+
+    transform:scale(1.08);
+
+    box-shadow:0 0 25px #A855F7;
+
+}
+
 .instagram{
 
 display:inline-block;
