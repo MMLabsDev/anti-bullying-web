@@ -4,9 +4,16 @@
 ---
 Visualización:
 
-<img width="1899" height="912" alt="image" src="https://github.com/user-attachments/assets/8a7b5226-3cec-457b-8a57-ed20fbc027d3" />
+<img width="1339" height="630" alt="image" src="https://github.com/user-attachments/assets/958b4a68-3c02-4861-97ad-f3df81de5869" />
+
 
 ---
+## Características:
+
+* Interfaz dinámica y atractiva
+* Espacio para comentar `Usando Formspree`
+* Elementos visuales decorativos
+
 ## Intención:
 
 ###​ Anti-bullying-web es una página web elaborada con 3 propósitos;
